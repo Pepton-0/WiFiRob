@@ -2,8 +2,8 @@
 class Const
 {
 public:
-    const char* ssid = "AG45-A24";
-    const char* password = "ZY53357542011";
+    const char* ssid = "a...";
+    const char* password = "z...";
     const std::string index PROGMEM = R"rawliteral(
 <!DOCTYPE html>
 <html id="TouchArea">
