@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ESPAsyncTCP">
+      <UniqueIdentifier>{0cd07f86-52db-4f3f-a4cc-1df04cde8d88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ESPAsyncWebServer">
+      <UniqueIdentifier>{63ed4e8d-7fd0-42ee-b36a-a763ebb20186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="WiFiRob.ino" />
+    <None Include="..\Resources\ESPAsyncWebServer\src\edit.htm">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.WiFiRob.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Const.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\SyncClient.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\tcp_axtls.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\async_config.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\AsyncPrinter.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\DebugPrintMacros.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\ESPAsyncTCP.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncTCP\src\ESPAsyncTCPbuffer.h">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\AsyncWebSynchronization.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\ESPAsyncWebServer.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\SPIFFSEditor.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\StringArray.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\WebAuthentication.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\WebHandlerImpl.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\WebResponseImpl.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\AsyncEventSource.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\AsyncJson.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Resources\ESPAsyncWebServer\src\AsyncWebSocket.h">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Const.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncTCP\src\tcp_axtls.c">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncTCP\src\AsyncPrinter.cpp">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncTCP\src\ESPAsyncTCP.cpp">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncTCP\src\ESPAsyncTCPbuffer.cpp">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncTCP\src\SyncClient.cpp">
+      <Filter>Source Files\ESPAsyncTCP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\SPIFFSEditor.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\WebAuthentication.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\WebHandlers.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\WebRequest.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\WebResponses.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\WebServer.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\AsyncEventSource.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Resources\ESPAsyncWebServer\src\AsyncWebSocket.cpp">
+      <Filter>Source Files\ESPAsyncWebServer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
